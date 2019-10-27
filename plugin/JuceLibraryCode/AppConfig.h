@@ -118,7 +118,7 @@
 #endif
 
 #ifndef    JUCE_JACK
- //#define JUCE_JACK 0
+ #define   JUCE_JACK 1
 #endif
 
 #ifndef    JUCE_BELA
@@ -237,7 +237,7 @@
 #endif
 
 #ifndef    JUCE_USE_CURL
- //#define JUCE_USE_CURL 0
+ //#define JUCE_USE_CURL 1
 #endif
 
 #ifndef    JUCE_LOAD_CURL_SYMBOLS_LAZILY
@@ -358,13 +358,13 @@
 // Audio plugin settings..
 
 #ifndef  JucePlugin_Build_VST
- #define JucePlugin_Build_VST              1
+ #define JucePlugin_Build_VST              0
 #endif
 #ifndef  JucePlugin_Build_VST3
  #define JucePlugin_Build_VST3             0
 #endif
 #ifndef  JucePlugin_Build_AU
- #define JucePlugin_Build_AU               1
+ #define JucePlugin_Build_AU               0
 #endif
 #ifndef  JucePlugin_Build_AUv3
  #define JucePlugin_Build_AUv3             0
